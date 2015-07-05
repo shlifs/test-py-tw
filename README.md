@@ -65,8 +65,7 @@ The authorization code that is required for completing the authentication is sto
 
 ### <a name="sample_edit"></a>**Editing the Sample**
 
-
-- **Callback URL** — The samples utilizes the **[callback URL](#cb_url_set)** that you defined in your app settings on the Spark developer portal. This URL is implicitly assigned to the **redirect_uri** parameters of the log-in URL and the callback's access-token generation request. To use a different callback URL, change your app settings.
+- **Callback URL** — The samples utilizes the [callback URL](#cb_url_set) that you defined in your app settings on the Spark developer portal. This URL is implicitly assigned to the **redirect_uri** parameters of the log-in URL and the callback's access-token generation request. To use a different callback URL, change your app settings.
 
 - **Production** — To use the sample in the production stage, you will need to set the *Callback URL* in your production app settings on the Spark developer portal to the relevant URL; replace the sandbox URL prefix set in the sample's **SPARK_ENDPOINT** variable with your production URL; and replace the App Key and App Secret values in the sample's **CONSUMER_KEY** and **CONSUMER_SECRET** variable assignments with the production credentials provided on the developer portal.
 
